@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vivense</title>
-    {{-- @yield('custom_styles') --}}
 
-    @include('front.partials.styles')
+    @include('partials.styles')
 
 
 </head>
 
 <body>
 
-    @include('partials.header')
+    @include('front.partials.header')
 
     @yield('content')
 
-    @include('partials.footer')
+    @include('front.partials.footer')
 
-    @include('partials.script')
+    @include('front.partials.script')
 </body>
 
 </html>
