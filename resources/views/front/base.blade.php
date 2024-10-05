@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vivense</title>
+    <title>22</title>
     {{-- @yield('custom_styles') --}}
 
     @include('front.partials.styles')
@@ -15,13 +15,13 @@
 
 <body>
 
-    @include('partials.header')
+    @include('front.partials.header')
 
     @yield('content')
 
-    @include('partials.footer')
+    @include('front.partials.footer')
 
-    @include('partials.script')
+    @include('front.partials.script')
 </body>
 
 </html>
