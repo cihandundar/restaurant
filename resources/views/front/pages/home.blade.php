@@ -1,6 +1,5 @@
 @extends('front.base')
+
 @section('content')
-    <div>
-        Home
-    </div>
+    @include('front.partials.home_section.hero')
 @endsection
