@@ -28,7 +28,7 @@ img {
 /* HEADER */
 .header {
     background-color: var(--header-background);
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .nav {
     display: flex;
@@ -42,4 +42,8 @@ img {
 
 .nav-list li a {
     color: white;
+}
+
+.heroSlider {
+    position: relative;
 }
