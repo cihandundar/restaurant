@@ -37,7 +37,7 @@ img {
 .nav-list {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .nav-list li a {
@@ -78,6 +78,16 @@ img {
     font-weight: 600;
 }
 
+.hero-info {
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+}
+
+.hero-info a {
+    color: var(--orange-color);
+    text-decoration: underline;
+}
+
 .hero-btn {
     padding: 20px 50px;
     border: 1px solid white;
@@ -88,4 +98,9 @@ img {
 .hero-btn:hover {
     background-color: var(--orange-color);
     border: none;
+}
+
+.heroSlider .swiper-pagination-bullet {
+    background-color: white;
+    padding: 8px;
 }

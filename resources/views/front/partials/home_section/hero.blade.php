@@ -8,6 +8,9 @@
                         <span>Delicious & Mouth</span>
                         <span>Watering Test</span>
                     </div>
+                    <div class="hero-info">
+                        Best food made by our <a href="#" title="#">Passionate Chefs</a>
+                    </div>
                     <a href="#" class="hero-btn">Book a Table</a>
                 </div>
             </div>
@@ -18,6 +21,9 @@
                     <div class="hero-column">
                         <span>Delicious & Mouth</span>
                         <span>Watering Test</span>
+                    </div>
+                    <div class="hero-info">
+                        Best food made by our <a href="#" title="#">Passionate Chefs</a>
                     </div>
                     <a href="#" class="hero-btn">Book a Table</a>
                 </div>
