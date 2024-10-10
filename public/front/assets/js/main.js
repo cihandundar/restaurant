@@ -1,7 +1,6 @@
 var swiper = new Swiper(".heroSlider", {
-    direction: "vertical",
+    loop: true,
     pagination: {
         el: ".swiper-pagination",
-        clickable: true,
     },
 });
