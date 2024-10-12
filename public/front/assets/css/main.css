@@ -284,7 +284,7 @@ img {
     transition: all 0.3s ease;
 }
 
-.menu-btn button:hover {
+.menu-btn button.active {
     background: var(--orange-color);
 }
 

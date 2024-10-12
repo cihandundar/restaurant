@@ -21,21 +21,25 @@ document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".menu-btn button");
     const menus = document.querySelectorAll(".menu");
 
-    function showMenu(category) {
+    function showMenu(category, clickedButton) {
         menus.forEach((menu) => (menu.style.display = "none"));
 
         const selectedMenu = document.querySelector(`.${category}-menu`);
         if (selectedMenu) {
             selectedMenu.style.display = "block";
         }
+
+        buttons.forEach((button) => button.classList.remove("active"));
+
+        clickedButton.classList.add("active");
     }
 
     buttons.forEach((button) => {
         button.addEventListener("click", function () {
             const category = this.getAttribute("data-category");
-            showMenu(category);
+            showMenu(category, this);
         });
     });
-
-    showMenu("breakfast");
+    buttons[0].classList.add("active");
+    showMenu("breakfast", buttons[0]);
 });
