@@ -1,7 +1,7 @@
 <section class="special-menu">
     <div class="container">
         <div class="special-menu-title">
-            <span class="info">TEST A LITTLE BIT</span>
+            <span class="info">Test a Little Bit</span>
             <span class="title">Our Special Menu</span>
         </div>
         <div class="menu-btn">
