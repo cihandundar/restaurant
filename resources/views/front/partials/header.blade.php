@@ -1,4 +1,7 @@
 <header class="header">
+    <a href="/" class="mobile-logo">
+        @include('front.partials.svg.logo')
+    </a>
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-6">
@@ -6,8 +9,9 @@
                     @include('front.partials.svg.logo')
                 </a>
             </div>
+
             <div class="col-lg-6 col-6">
-                <nav class="nav ">
+                <nav class="nav">
                     <ul class="nav-list ">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Menu</a></li>
@@ -17,6 +21,12 @@
                     </ul>
                 </nav>
             </div>
+
         </div>
+    </div>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
     </div>
 </header>

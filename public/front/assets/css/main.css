@@ -15,7 +15,11 @@
 li {
     list-style: none;
 }
-
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
     color: black;
@@ -26,6 +30,72 @@ img {
 }
 
 /* HEADER */
+.hamburger {
+    display: none;
+}
+
+.hamburger .bar {
+    display: block;
+    margin: 5px 0;
+    height: 3px;
+    width: 30px;
+    background-color: var(--orange-color);
+    transition: 0.3s ease;
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.mobile-logo {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .mobile-logo {
+        display: block;
+        padding-left: 40px;
+    }
+    .hamburger {
+        display: block;
+        position: fixed;
+        right: 40px;
+        top: 15px;
+        display: block;
+        cursor: pointer;
+        z-index: 5;
+    }
+
+    .nav {
+        width: 30%;
+        height: 100vh;
+        position: fixed;
+        background-color: var(--header-background);
+        left: -100%;
+        top: 54px;
+        z-index: 3;
+        justify-content: center !important;
+        transition: 0.3s ease;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .nav.active {
+        left: 0;
+    }
+}
+
 .header {
     background-color: var(--header-background);
     padding: 10px 0;
@@ -69,6 +139,12 @@ img {
     color: var(--orange-color);
 }
 
+@media (max-width: 992px) {
+    .hero-discount {
+        font-size: 17px;
+    }
+}
+
 .hero-column {
     display: flex;
     flex-direction: column;
@@ -78,9 +154,23 @@ img {
     font-weight: 600;
 }
 
+@media (max-width: 992px) {
+    .hero-column {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+}
+
 .hero-info {
     margin-bottom: 60px;
     letter-spacing: 3px;
+}
+
+@media (max-width: 992px) {
+    .hero-info {
+        margin-bottom: 22px;
+        font-size: 6px;
+    }
 }
 
 .hero-info a {
@@ -93,6 +183,13 @@ img {
     border: 1px solid white;
     color: white;
     transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+    .hero-btn {
+        padding: 5px 20px;
+        font-size: 11px;
+    }
 }
 
 .hero-btn:hover {
