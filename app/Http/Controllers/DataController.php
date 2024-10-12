@@ -10,6 +10,7 @@ class DataController extends Controller
     public function showMenu()
     {
         return view('front.pages.home', [
+            'menu' => dataset('menu'),
         ]);
     }
 }

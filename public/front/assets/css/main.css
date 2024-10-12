@@ -72,6 +72,13 @@ img {
     text-decoration: underline;
 }
 
+.title {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
 /* MAIN CSS END */
 
 /* HEADER */
@@ -219,6 +226,7 @@ img {
 
 .view-menu {
     background-image: url("../images//menu-background.jpg");
+    background-repeat: no-repeat;
     width: 100%;
     display: flex;
     align-items: center;
@@ -240,4 +248,76 @@ img {
 
 .advertising {
     padding: 50px 0px;
+}
+
+/* SPECIAL MENU SECTION */
+
+.special-menu {
+    background-image: url("../images/our-menu-background.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.special-menu-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.menu-btn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.menu-btn button {
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: 1px solid var(--orange-color);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.menu-btn button:hover {
+    background: var(--orange-color);
+}
+
+.special-menu-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: white;
+}
+
+.menu-item-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.menu-item-title {
+    font-size: 22px;
+}
+
+.menu-item-desc {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.menu-item-price {
+    padding-left: 30px;
+    font-weight: bold;
 }
