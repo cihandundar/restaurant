@@ -29,6 +29,39 @@ img {
     max-width: 100%;
 }
 
+/* MAIN CSS */
+.info {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: var(--orange-color);
+}
+
+@media (max-width: 992px) {
+    .info {
+        font-size: 17px;
+    }
+}
+
+.btn {
+    padding: 20px 50px;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+    .btn {
+        padding: 5px 20px;
+        font-size: 11px;
+    }
+}
+
+.btn:hover {
+    background-color: var(--orange-color);
+    border: none;
+}
+
 /* HEADER */
 .hamburger {
     display: none;
@@ -132,19 +165,6 @@ img {
     z-index: 1;
 }
 
-.hero-discount {
-    font-size: 24px;
-    letter-spacing: 2px;
-    font-style: italic;
-    color: var(--orange-color);
-}
-
-@media (max-width: 992px) {
-    .hero-discount {
-        font-size: 17px;
-    }
-}
-
 .hero-column {
     display: flex;
     flex-direction: column;
@@ -163,7 +183,7 @@ img {
 
 .hero-info {
     margin-bottom: 60px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 @media (max-width: 992px) {
@@ -178,26 +198,40 @@ img {
     text-decoration: underline;
 }
 
-.hero-btn {
-    padding: 20px 50px;
-    border: 1px solid white;
-    color: white;
-    transition: all 0.3s ease;
-}
-
-@media (max-width: 992px) {
-    .hero-btn {
-        padding: 5px 20px;
-        font-size: 11px;
-    }
-}
-
-.hero-btn:hover {
-    background-color: var(--orange-color);
-    border: none;
-}
-
 .heroSlider .swiper-pagination-bullet {
     background-color: white;
     padding: 8px;
+}
+
+/* VIEW MENU SECTION */
+
+.view-menu {
+    background-image: url("../images//menu-background.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.view-menu-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.view-menu-text {
+    margin: 10px 0;
+}
+
+.view-menu-phone {
+    margin: 10px 0 20px 0;
+    letter-spacing: 2px;
+}
+
+.view-menu-phone a {
+    color: var(--orange-color);
+    text-decoration: underline;
 }

@@ -7,6 +7,7 @@ hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 });
 
+// hero - slider
 var swiper = new Swiper(".heroSlider", {
     loop: true,
     pagination: {
