@@ -22,10 +22,10 @@
                         <span>Delicious & Mouth</span>
                         <span>Watering Test</span>
                     </div>
-                    <div class="hero-info">
+                    <div class="reservation">
                         Best food made by our <a href="#" title="#">Passionate Chefs</a>
                     </div>
-                    <a href="#" title="#" class="hero-btn">Book a Table</a>
+                    <a href="#" title="#" class="btn">Book a Table</a>
                 </div>
             </div>
         </div>
