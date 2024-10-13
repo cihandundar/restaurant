@@ -11,6 +11,7 @@ class DataController extends Controller
     {
         return view('front.pages.home', [
             'menu' => dataset('menu'),
+            'testimonials' => dataset('testimonials'),
         ]);
     }
 }

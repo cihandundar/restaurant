@@ -43,3 +43,14 @@ document.addEventListener("DOMContentLoaded", function () {
     buttons[0].classList.add("active");
     showMenu("breakfast", buttons[0]);
 });
+
+// testimonial - slider
+var swiper = new Swiper(".testimonialsSlider", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
