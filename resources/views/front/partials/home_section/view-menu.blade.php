@@ -26,10 +26,10 @@
         </div>
         <div class="advertising">
             <div class="row">
-                <a href="#" title="#" class="col-lg-6 col-12"><img
+                <a href="#" title="#" class="col-lg-6 col-12 mb-4"><img
                         src="{{ asset('front/assets/images/menu1.jpg') }}" alt="">
                 </a>
-                <a href="#" title="#" class="col-lg-6 col-12"><img
+                <a href="#" title="#" class="col-lg-6 col-12 mb-4"><img
                         src="{{ asset('front/assets/images/menu2.jpg') }}" alt="">
                 </a>
             </div>

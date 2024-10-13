@@ -34,6 +34,7 @@ img {
     font-size: 24px;
     letter-spacing: 2px;
     font-style: italic;
+    text-transform: uppercase;
     color: var(--orange-color);
 }
 
@@ -77,6 +78,8 @@ img {
     font-size: 45px;
     font-weight: bold;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 /* MAIN CSS END */
@@ -110,6 +113,12 @@ img {
 }
 
 @media (max-width: 768px) {
+    .header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
     .logo {
         display: none;
     }
@@ -151,6 +160,9 @@ img {
 .header {
     background-color: var(--header-background);
     padding: 10px 0;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2);
 }
 .nav {
     display: flex;
@@ -226,7 +238,9 @@ img {
 
 .view-menu {
     background-image: url("../images//menu-background.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     display: flex;
     align-items: center;
@@ -255,7 +269,8 @@ img {
 .special-menu {
     background-image: url("../images/our-menu-background.jpg");
     background-size: cover;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 100px 0;
 }
 
@@ -327,4 +342,34 @@ img {
 .menu-item-price {
     padding-left: 30px;
     font-weight: bold;
+}
+
+/* ABOUT US SECTION */
+
+.about-us {
+    background-image: url(../images/menu-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.about-right-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.about-box {
+    color: white;
+}
+
+.about-box-title {
+    font-size: 22px;
+}
+
+.about-box-text {
+    font-size: 14px;
+    margin-top: 10px;
 }
