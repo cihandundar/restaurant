@@ -66,6 +66,7 @@ img {
 .reservation {
     margin: 10px 0 20px 0;
     letter-spacing: 2px;
+    color: white;
 }
 
 .reservation a {
@@ -372,4 +373,46 @@ img {
 .about-box-text {
     font-size: 14px;
     margin-top: 10px;
+}
+
+/* RUNTIME SECTION */
+
+.runtime {
+    background-image: url(../images/footer-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+@media (max-width: 992px) {
+    .runtime-area {
+        margin-bottom: 50px;
+    }
+}
+
+.opening {
+    margin-top: 40px;
+    color: white;
+}
+
+.opening-title {
+    font-size: 22px;
+}
+
+.days {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.day {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.happy {
+    color: var(--orange-color);
 }

@@ -5,4 +5,5 @@
     @include('front.partials.home_section.view-menu')
     @include('front.partials.home_section.special-menu')
     @include('front.partials.home_section.about-us')
+    @include('front.partials.home_section.runtime')
 @endsection
