@@ -29,6 +29,10 @@ img {
     max-width: 100%;
 }
 
+section {
+    padding: 100px 0;
+}
+
 /* MAIN CSS */
 .info {
     font-size: 24px;
@@ -180,6 +184,10 @@ img {
 }
 
 /* HERO - SECTION */
+.hero-slider {
+    padding: 0;
+}
+
 .heroSlider {
     position: relative;
 }
@@ -272,7 +280,6 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 100px 0;
 }
 
 .special-menu-title {
@@ -352,7 +359,6 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 100px 0;
 }
 
 .about-right-wrapper {
@@ -415,4 +421,13 @@ img {
 
 .happy {
     color: var(--orange-color);
+}
+
+/* TESTIMONIALS SECTION */
+
+.testimonials {
+    background-image: url(../images/menu-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

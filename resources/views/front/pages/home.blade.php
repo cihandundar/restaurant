@@ -6,4 +6,5 @@
     @include('front.partials.home_section.special-menu')
     @include('front.partials.home_section.about-us')
     @include('front.partials.home_section.runtime')
+    @include('front.partials.home_section.testimonials')
 @endsection
