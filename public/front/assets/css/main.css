@@ -442,6 +442,8 @@ section {
 
 .testimonial-box {
     color: white;
+    background-color: var(--header-background);
+    padding: 30px;
 }
 
 .testimonial-box-comment {
