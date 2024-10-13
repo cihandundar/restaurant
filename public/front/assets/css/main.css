@@ -167,6 +167,7 @@ section {
     padding: 10px 0;
     position: sticky;
     top: 0;
+    z-index: 99999;
     box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2);
 }
 .nav {
@@ -483,4 +484,60 @@ section {
 .testimonialsSlider .swiper-pagination-bullet {
     background-color: white;
     padding: 8px;
+}
+
+/* HOME BLOG SECTION */
+
+.home-blog {
+    background-image: url(../images//post-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blogSlider {
+    padding: 100px;
+}
+
+.blogSlider .swiper-button-next {
+    color: var(--orange-color);
+}
+
+.blogSlider .swiper-button-prev {
+    color: var(--orange-color);
+}
+
+.home-blog-title {
+    text-align: center;
+}
+
+.blog-box-content {
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+.blog-box-content-wrapper {
+    color: var(--orange-color);
+    font-style: italic;
+    display: flex;
+    gap: 15px;
+}
+
+.blog-box-title {
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+.blog-box-content button {
+    width: 100%;
+    height: 50px;
+    background: none;
+    color: white;
+    border: 1px solid var(--orange-color);
+    transition: all 0.3s ease;
+}
+
+.blog-box-content button:hover {
+    background-color: var(--orange-color);
 }

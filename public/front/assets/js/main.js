@@ -70,3 +70,33 @@ var swiper = new Swiper(".testimonialsSlider", {
         },
     },
 });
+
+// blog -slider
+
+var swiper = new Swiper(".blogSlider", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 30,
+    cssMode: true,
+    grabCursor: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+    },
+});

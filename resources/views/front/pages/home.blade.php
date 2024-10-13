@@ -7,4 +7,5 @@
     @include('front.partials.home_section.about-us')
     @include('front.partials.home_section.runtime')
     @include('front.partials.home_section.testimonials')
+    @include('front.partials.home_section.home-blog')
 @endsection
