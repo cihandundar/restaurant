@@ -3,7 +3,7 @@
         @include('front.partials.svg.logo')
     </a>
     <div class="container">
-        <div class="row">
+        <div class="row align-center">
             <div class="col-lg-6 col-6">
                 <a href="/" class="logo">
                     @include('front.partials.svg.logo')
