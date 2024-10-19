@@ -8,5 +8,4 @@
     @include('front.partials.home_section.runtime')
     @include('front.partials.home_section.testimonials')
     @include('front.partials.home_section.home-blog')
-    @include('front.partials.cta')
 @endsection

@@ -18,6 +18,8 @@
 
     @yield('content')
 
+    @include('front.partials.cta')
+
     @include('front.partials.footer')
 
     @include('front.partials.script')

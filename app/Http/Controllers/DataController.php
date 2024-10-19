@@ -15,5 +15,11 @@ class DataController extends Controller
             'blogs' => dataset('blogs'),
         ]);
     }
+
+    public function menuPage() {
+        return view ('front.pages.menu', [
+            'menu' => dataset ('menu')
+        ]);
+    }
 }
 
