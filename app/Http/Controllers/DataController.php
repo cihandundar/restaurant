@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class DataController extends Controller
 {
-    public function showMenu()
+    public function showHome()
     {
         return view('front.pages.home', [
             'menu' => dataset('menu'),
@@ -18,7 +18,8 @@ class DataController extends Controller
 
     public function menuPage() {
         return view ('front.pages.menu', [
-            'menu' => dataset ('menu')
+            'menu' => dataset ('menu'),
+            'testimonials' => dataset('testimonials'),
         ]);
     }
 }

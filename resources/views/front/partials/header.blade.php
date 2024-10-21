@@ -4,13 +4,13 @@
     </a>
     <div class="container">
         <div class="row align-center">
-            <div class="col-lg-6 col-6">
+            <div class="col-lg-2 col-6">
                 <a href="/" class="logo">
                     @include('front.partials.svg.logo')
                 </a>
             </div>
 
-            <div class="col-lg-6 col-6">
+            <div class="col-lg-10 col-6">
                 <nav class="nav">
                     <ul class="nav-list ">
                         <li><a href="#">Home</a></li>
