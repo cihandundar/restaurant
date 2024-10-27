@@ -22,5 +22,12 @@ class DataController extends Controller
             'testimonials' => dataset('testimonials'),
         ]);
     }
+
+    public function aboutUs() {
+        return view ('front.pages.about', [
+            'testimonials' => dataset('testimonials'),
+            'chefs' => dataset('chefs'),
+        ]);
+    }
 }
 

@@ -7,5 +7,7 @@ Route::get('/', [DataController::class,'showHome']);
 
 Route::get('/menu', [DataController::class, 'menuPage'])->name('menu');
 
+Route::get('/about', [DataController::class, 'aboutUs'])->name('about');
+
 
 
