@@ -9,10 +9,10 @@
                     <div class="info">Newsletter</div>
                     <div class="title">Subscribe our Newsletter</div>
                     <div class="cta-right-text">To get latest updates, offers and promotions</div>
-                    <div class="cta-right-input">
+                    <form action="#" method="#" class="cta-right-input">
                         <input type="email" placeholder="Enter your email">
                         <button>Subscribe</button>
-                    </div>
+                    </form>
                     <div class="reservation">
                         Call for Reservation <a href="#">+01234 567 891</a>
                     </div>

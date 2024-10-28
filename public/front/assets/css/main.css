@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
     --primary-color: #011920;
     --orange-color: #ff8700;
@@ -5,7 +7,6 @@
     --menu-background: #03171e;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -146,6 +147,16 @@ section {
         display: block;
         cursor: pointer;
         z-index: 5;
+    }
+
+    .hamburger::before {
+        content: "MENÜ";
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        color: var(--orange-color);
+        transform: translate(-50%, -50%);
+        font-size: 20px;
     }
 
     .nav {
@@ -804,7 +815,7 @@ section {
 /* BLOG PAGE */
 
 .blog-page {
-    background-image: url(../images//post-background.jpg);
+    background-image: url(../images/post-background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -812,4 +823,13 @@ section {
 
 .blog-page img {
     width: 100%;
+}
+
+/* CONTACT PAGE */
+
+.contact-page {
+    background-image: url(../images/contact-page-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

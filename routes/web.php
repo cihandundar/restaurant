@@ -11,5 +11,7 @@ Route::get('/about', [DataController::class, 'aboutUs'])->name('about');
 
 Route::get('/blog', action: [DataController::class, 'blog'])->name('blog');
 
+Route::get(uri: '/contact', action: [DataController::class, 'contact'])->name('contact');
+
 
 

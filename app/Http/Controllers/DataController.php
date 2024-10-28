@@ -34,5 +34,9 @@ class DataController extends Controller
             'blogs' => dataset(name: 'blogs'),
         ]);
     }
+
+    public function contact() {
+        return view ('front.pages.contact');
+    }
 }
 
