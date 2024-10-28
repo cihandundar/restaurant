@@ -13,10 +13,10 @@
             <div class="col-lg-10 col-6">
                 <nav class="nav">
                     <ul class="nav-list ">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="{{ route('menu') }}">Menu</a></li>
                         <li><a href="{{ route('about') }}">About Us</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="{{ route('blog') }}">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>

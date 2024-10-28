@@ -800,3 +800,16 @@ section {
 .chefs .swiper-button-prev {
     color: var(--orange-color);
 }
+
+/* BLOG PAGE */
+
+.blog-page {
+    background-image: url(../images//post-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog-page img {
+    width: 100%;
+}

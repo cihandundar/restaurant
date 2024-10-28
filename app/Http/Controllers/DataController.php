@@ -29,5 +29,10 @@ class DataController extends Controller
             'chefs' => dataset('chefs'),
         ]);
     }
+    public function blog() {
+        return view ('front.pages.blog', [
+            'blogs' => dataset(name: 'blogs'),
+        ]);
+    }
 }
 
