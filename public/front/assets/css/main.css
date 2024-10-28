@@ -161,7 +161,7 @@ section {
     }
 
     .nav {
-        width: 30%;
+        width: 40%;
         height: 100vh;
         position: fixed;
         background-color: var(--header-background);
@@ -178,6 +178,18 @@ section {
     }
     .nav.active {
         left: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .nav {
+        width: 60%;
+    }
+}
+
+@media (max-width: 425px) {
+    .nav {
+        width: 100%;
     }
 }
 
