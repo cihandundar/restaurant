@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    @include('front.partials.contact_section.contact-area')
+                    @include('front.partials.contact_section.contact-form')
                 </div>
             </div>
         </div>
