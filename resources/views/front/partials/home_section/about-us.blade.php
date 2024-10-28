@@ -7,7 +7,7 @@
             <div class="col-lg-6 col-12">
                 <div class="about-right-area">
                     <div class="about-right-wrapper">
-                        <div>
+                        <div class="about-right-block">
                             <div class="info">QUALITY & BALANCE</div>
                             <div class="title">
                                 <span>An Extraordinary</span>
