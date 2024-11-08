@@ -1,10 +1,23 @@
 // header - hamburger
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav");
+const overlay = document.querySelector(".overlay");
 
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
+    overlay.classList.toggle("active");
+
+    // Sayfa kaydırmasını devre dışı bırak veya aktif et
+    document.body.classList.toggle("no-scroll");
+});
+
+// Overlay'e tıklanıldığında menüyü kapat
+overlay.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+    overlay.classList.remove("active");
+    document.body.classList.remove("no-scroll");
 });
 
 // hero - slider
@@ -127,4 +140,26 @@ var swiper = new Swiper(".chefsSlider", {
             spaceBetween: 10,
         },
     },
+});
+
+// scroll effect
+
+window.addEventListener("scroll", () => {
+    const header = document.querySelector(".header");
+
+    if (window.scrollY > 50 && window.innerWidth > 992) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
+    }
+});
+
+// Ekran boyutu değiştiğinde yeniden kontrol etmek için bir resize eventi ekleyin
+window.addEventListener("resize", () => {
+    const header = document.querySelector(".header");
+
+    // Ekran genişliği 992px'den küçükse sticky sınıfını kaldır
+    if (window.innerWidth <= 992) {
+        header.classList.remove("sticky");
+    }
 });
